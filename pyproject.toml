@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "canvas-grab"
+version = "0.1.0"
+description = "Downloads all Canvas files to a local directory. Provides GUI for managing the download.\u001b["
+authors = ["Hobson Lane <hobson@tangibleai.com>"]
+license = "AGPLv3"
+
+[tool.poetry.dependencies]
+python = "^3.7,<3.11"
+canvasapi = "^3.0.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.2.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
