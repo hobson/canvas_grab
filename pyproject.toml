@@ -4,8 +4,8 @@ version = "0.1.0"
 description = "Downloads all Canvas files to a local directory. Provides GUI for managing the download.\u001b["
 readme = "README.md"
 authors = [
-    "Alex Chi (github.com/skyzh) <iskyzh@gmail.com>", 
-    "Dan Yang (github.com/danyang685) <unknown@example.com>",
+    "Alex Chi (skyzh) <iskyzh@gmail.com>", 
+    "Dan Yang (danyang685) <unknown@example.com>",
     "Hobson Lane <dlane@sdccd.edu>",
     ]
 license = "MIT"
