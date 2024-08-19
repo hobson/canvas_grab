@@ -8,8 +8,8 @@ echo "Check virtual environment..."
 
 if [ ! -d ".venv" ]; then
     echo "Create virtual environment..."
-    python3 -m virtualenv .venv
-    echo "Activate virtual environment..."
+    pip install virtualenv
+    python -m virtualenv .venv
 fi
 
 echo "Activate virtual environment..."
